@@ -1,0 +1,183 @@
+#d1,#d2,#d3,#d4,#d5,#d6,#d7,#d8,#d9
+{
+	
+	border:5px solid white;
+	height: 144px;
+	width: 155px;
+	float: left;
+	font-size: 120px;
+	text-align: center;
+	    text-shadow: 2px 1px black;
+
+
+}
+
+#d1,#d4,#d7
+{
+
+clear: left;
+border-left: none;
+}
+#d3,#d6,#d9
+{
+	border-right: none;
+}
+#d1,#d2,#d3
+{
+	border-top: none;
+}
+#d7,#d8,#d9
+{
+	border-bottom:  none;
+}
+#div {
+	margin-left: 520px;
+	margin-bottom: 150px;
+	    color: aliceblue;
+
+        margin-top: -388px;
+
+}
+#d10
+{
+	    border: 5px solid white;
+    height: 218px;
+    width: 220px;
+    margin-left: 154px;
+    font-size: 120px;
+    text-align: center;
+}
+#d11
+{
+	    border: 5px solid white;
+    height: 218px;
+    width: 220px;
+   
+    float: right;
+    font-size: 120px;
+    text-align: center;
+        margin-right: 150px;
+            margin-top: -180px;
+}
+
+#notice
+{
+	color: white;
+	text-shadow: 2px 1px black;
+	background-color: cadetblue;
+    border: 2px solid;
+    width: 495px;
+    margin-right:39;
+    margin-top: 60px;
+}
+
+
+/*frontpage- playerinfo css*/
+
+
+
+#h1{
+
+	font-size: 77px;
+	font-family: cursive;
+	color: white;
+	   margin-top: 90px;
+     
+         text-shadow: 4px 4px black;
+
+	      
+
+}
+
+
+#buttons{
+	border-color: black;
+    background-color: #2371ca;
+    border: 1px solid #020202;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    cursor: pointer;
+    width: 150px;
+    display: block;
+
+}
+
+#buttons:hover {
+  background-color: orangered;
+}
+
+
+#sbutton1{
+
+  background-color: white; 
+  color: black; 
+  border: 2px solid #FFFFFF;
+    margin-left: 6px;
+}
+#Sound{
+    font-size: 30px;
+    margin-top: 5px;
+    margin-bottom: 2px;
+}
+#sbutton2{
+background-color: white; 
+  color: black; 
+  border: 2px solid #FFFFFF;
+    margin-left: 6px;
+
+
+    margin-left: 6px;
+}
+
+#scoreboard{
+    float: right;
+    background-color: red;
+            margin-top: -50px;
+        color: black;
+    background-color: beige;
+    border: solid;
+    font-family: cursive;
+
+}
+#scoreboardbanner{
+border-bottom: dashed;
+
+}
+#menubar{
+
+
+}
+
+/*menubar buttons css*/
+
+#MenuBTN{
+    border-color: black;
+    background-color: #2371ca;
+    border: 1px solid #020202;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    cursor: pointer;
+    width: 150px;
+    display: block;
+        margin-top: 65px;
+
+
+}
+
+#MenuBTN:hover {
+  background-color: orangered;
+}
+
+/*home page css*/
+#HPdiv
+{
+    border: white solid;
+    width: 1000;
+    margin-left: 10px;
+}

@@ -1,0 +1,113 @@
+<html>
+<head>
+		<title> TIC TAC TOE </title>
+		<link rel="stylesheet" href="css.css">
+		<script src="jsgame.js"></script>
+		<script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js">
+
+		</script>
+
+
+
+</head>
+<body id="body" style="background-image: url('bg.jpg') ;" onload="scorename();" >
+
+
+
+
+<div id="scoreboard">
+		<table  name="table" >
+			<tr colspan="1" >
+				<center>
+				<td colspan="2" id="scoreboardbanner">
+				
+				
+					->SCOREBOARD<-
+
+				</td>
+			</center>
+			</tr>
+
+			<tr >
+			<td >
+				<p id="pnumber1"> player1</p>
+			</td>
+			<td id="P1points">  0
+			</td>
+			</tr>
+			<tr>
+				<td >
+					<p id="pnumber2">
+					player2
+				</p>
+				</td>
+				<td id="P2points">
+					  0  
+				</td>
+			</tr>
+
+			<tr>
+				<td>
+					Tie Match's :
+				</td>
+				<td>
+					<p id="tie">0
+					</p>
+				</td>
+			</tr>
+		</table>	
+
+</div>
+
+
+
+
+
+	
+
+	      	<center>
+	<h1 id="notice">All The Best Both Of You !</br> Let's Play Tic Tac Toe</h1></center>
+
+<div id="menubar">
+		<form action="HomePage.html" method="get">
+		<button ID="MenuBTN">HOME</button>
+</form>
+<form onclick="reload();" method="get">
+		<button ID="MenuBTN">RESTART</button>
+</form>
+<form action="HelpPage2.html" method="get">
+		<button ID="MenuBTN">HELP</button>
+</form>
+<form action="ExitPage.html" method="get">
+		<button ID="MenuBTN">EXIT</button>
+</form>
+</div>
+
+	
+
+
+	
+
+
+		
+
+
+		<div id="div">
+		<div id="d1" onclick="play('1')"></div>
+		<div id="d2" onclick="play('2')"></div>
+		<div id="d3" onclick="play('3')"></div>
+		<div id="d4" onclick="play('4')"></div>
+		<div id="d5" onclick="play('5')"></div>
+		<div id="d6" onclick="play('6')"></div>
+		<div id="d7" onclick="play('7')"></div>
+		<div id="d8" onclick="play('8')"></div>
+		<div id="d9" onclick="play('9')"></div>
+	</div>
+
+	
+
+
+
+</script>
+</body>
+</html>
